@@ -1,5 +1,5 @@
 
-//#######################################################################################################
+//######################################################################################################
 //5. El profesor de la materia de "Introducci�n a la Programacion" requiere de un programa que le permita almacenar 
 //en un arreglo los nombres de los 30 estudiantes del curso y en una matriz, las 5 notas obtenidas por cada uno de los estudiantes 
 //durante el semestre. El algoritmo debe realizar las siguientes operaciones: 
@@ -11,7 +11,7 @@
 //d)  Obtener el nombre de los estudiantes (y almacenarlos en un arreglo) que tendran que habilitar la materia. Un estudiante puede habilitar
 //la materia si su nota definitiva es inferior a 3.0. pero superior a 2.0, esto es, que su nota definitiva se encuentre entre 2.0 y 2.99.
 //e)  Determinar cuantos estudiantes ganaron la materia.
-//#######################################################################################################
+//######################################################################################################
 
 Algoritmo Ejercicio5_HenaoLuis
 	

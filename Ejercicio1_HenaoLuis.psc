@@ -1,16 +1,16 @@
 
-//#########################################################################################################
-//Escriba un program que permita almacenar en arreglos diferentes los nombres, los géneros y las edades de un 
+//########################################################################################################
+//Escriba un program que permita almacenar en arreglos diferentes los nombres, los gï¿½neros y las edades de un 
 //grupo de n personas. El algoritmo debe determinar:
 //a) Cuantas personas son de genero masculino 
 //b) Cuantas personas de genero femenino superan la mayoria de edad 
 //c) Cual es el promedio de edad de las personas de genero masculino 
-//d) Cual es el nombre de la persona de genero femenino mas pequeña. 
+//d) Cual es el nombre de la persona de genero femenino mas pequeï¿½a. 
 //#########################################################################################################
 
 Algoritmo Ejercicio1_HenaoLuis
 	Definir c Como Entero
-	Escribir "¿Cual es la cantidad del grupo de personas?"
+	Escribir "ï¿½Cual es la cantidad del grupo de personas?"
 	Leer c
 	
 	Dimension nombre[c]
@@ -18,11 +18,11 @@ Algoritmo Ejercicio1_HenaoLuis
 	Dimension edad[c]
 	
 	Para i<-0 Hasta c-1 Hacer
-		Escribir "¿Nombre de la " i+1 " persona?"
+		Escribir "ï¿½Nombre de la " i+1 " persona?"
 		Leer nombre[i]
-		Escribir "¿Genero de la " i+1 " persona f/m?"
+		Escribir "ï¿½Genero de la " i+1 " persona f/m?"
 		Leer genero[i]
-		Escribir "¿Edad de la " i+1 " persona?"
+		Escribir "ï¿½Edad de la " i+1 " persona?"
 		Leer edad[i]
 	FinPara
 	canG<-0
@@ -50,14 +50,14 @@ Algoritmo Ejercicio1_HenaoLuis
 	Escribir "Promedio de edad de las personas de genero masculino:  " proEM
 	
 	mayor1<-1000
-	Para e<-0 Hasta c-1 Hacer //si la edad de la persona de genero femenino en esa posicion es menor que mayor1 se remplaza mayor1 por dicha edad y asi hasta conseguir la edad mas pequeña
+	Para e<-0 Hasta c-1 Hacer //si la edad de la persona de genero femenino en esa posicion es menor que mayor1 se remplaza mayor1 por dicha edad y asi hasta conseguir la edad mas pequeï¿½a
 		si genero[e]="f" y edad[e]<mayor1 Entonces
 			mayor1=edad[e]
 			nombre2=nombre[e]
 		FinSi
 	FinPara
 
-	Escribir "El nombre de la persona de genero femenino mas pequeña: " nombre2
+	Escribir "El nombre de la persona de genero femenino mas pequeï¿½a: " nombre2
 	
 	
 

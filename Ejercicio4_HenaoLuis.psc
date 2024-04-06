@@ -5,13 +5,13 @@
 //#########################################################################################################
 
 Algoritmo Ejercicio4_HenaoLuis
-	Dimension pares[n]
-	Dimension impares[n]
+	
 	
 	
 	Escribir "Ingrese un numero entre 50 y 100"
 	Leer n
-	
+	Dimension pares[n]
+	Dimension impares[n]
 
 //si el usuario ingresa un numero menor que 50 o mayor que 100 le pedira que ingrese un numero entre 50 y 100
 	si n<50 o n>100 Entonces

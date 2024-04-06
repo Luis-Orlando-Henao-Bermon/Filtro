@@ -1,5 +1,5 @@
 
-//#########################################################################################################
+//########################################################################################################
 //4. Escriba un programa que almacene en un arreglo n numeros enteros entre 50 y 100. El algoritmo debera encontrar
 //los numeros pares y los impares que estan almacenados en este arreglo y almacenarlos en otros arreglos por separado para, posteriormente mostrarlos al usuario. ?  
 //#########################################################################################################

@@ -1,5 +1,5 @@
-//#########################################################################################################
-//Diseñe un programa que permita ingresar y almacenar los nombres y las estaturas de un grupo 
+//########################################################################################################
+//Diseï¿½e un programa que permita ingresar y almacenar los nombres y las estaturas de un grupo 
 //de n personas y que muestre como salida los nombres y las estaturas de las personas ordenadas: 
 //a) Ascendentemente, es decir, de la mas baja a la mas alta 
 //b) Descendentemente, es decir, de la mas alta a la mas baja 
@@ -7,16 +7,16 @@
 Algoritmo Ejercicio2_HenaoLuis
 	
 	Definir n Como Entero
-	Escribir "¿Cual es la cantidad del grupo de personas?"
+	Escribir "ï¿½Cual es la cantidad del grupo de personas?"
 	Leer n
 	Dimension nombre[n]
 	Dimension altura[n]
 	p=n-1 //p vale n-1 para poder usar un bucle en la cantidad correcta ya que los bucles empiezan desde cero por eso se le resta uno
 	
 	Para i<-0 Hasta p Hacer //bucle para registrar los nombres y las altura en los arreglos
-		Escribir "¿Nombre de la " i+1 " persona?"
+		Escribir "ï¿½Nombre de la " i+1 " persona?"
 		Leer nombre[i]
-		Escribir "¿Altura de la " i+1 " persona (cm)?"
+		Escribir "ï¿½Altura de la " i+1 " persona (cm)?"
 		Leer altura[i]
 	FinPara
 	
